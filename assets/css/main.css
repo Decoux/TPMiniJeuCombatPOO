@@ -95,6 +95,33 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html{
+    min-height: 100vh;
+    height: 100vh;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+section{
+    flex: 1;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+  text-decoration: none;
+  color: red;
+}
+
+
 
 
 /* ##################################################################### */

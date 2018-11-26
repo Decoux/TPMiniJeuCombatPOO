@@ -1,5 +1,5 @@
 <footer>
-  <p>TP-Mini jeu de combat</p>
+  <p class="text-center">By Paul Decoux</p>
 </footer>
 
  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
