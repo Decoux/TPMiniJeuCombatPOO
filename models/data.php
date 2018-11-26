@@ -1,7 +1,7 @@
 <?php 
 
 try {
-    $db = new PDO('mysql:host=localhost;dbname=fight_game;charset=utf8', 'root', '');
+    $db = new PDO('mysql:host=localhost;dbname=fight_game;charset=utf8', 'root', 'root');
 } catch (Exception $e) {
     die('Erreur : ' . $e->getMessage());
 }
