@@ -2,19 +2,11 @@
   include("template/header.php")
  ?>
   <form action="index.php" method="post">
-
       <p>
-
         Nom : <input type="text" name="name" maxlength="50" />
-
         <input type="submit" value="Créer ce personnage" name="create" />
-
-
       </p>
-
     </form>
-
-    
 
     <?php foreach ($getLastWarrior as $warrior) { ?>
       <p class="text-success"><?php echo $warrior->getNames(); ?></p>
